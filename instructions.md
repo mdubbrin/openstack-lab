@@ -168,3 +168,9 @@ The instance Overview will show the floating IP next to the WAN address
 
 Browse to `https://<floating-ip>` from your desktop. Default login: **admin / pfsense**
 
+# Initial Web Configuration
+When you login to the web ui, most of the settings will be kept. Here are the ones to change:
+
+Override DNS: **unckecked**
+Primary DNS: 1.1.1.1 or 8.8.8.8 (or personal preference)
+Secondary DNS: 8.8.8.8 or 1.1.1.1 (or personal preference or blank)
